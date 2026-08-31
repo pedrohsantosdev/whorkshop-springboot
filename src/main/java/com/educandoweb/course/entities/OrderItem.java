@@ -13,7 +13,6 @@ import java.util.Objects;
 public class OrderItem {
 
     @EmbeddedId
-    @JsonIgnore
     private OrderItemPK id = new OrderItemPK();
 
     private Integer quantity;
